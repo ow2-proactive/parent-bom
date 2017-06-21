@@ -6,7 +6,7 @@
 
     <groupId>org.ow2.proactive</groupId>
     <artifactId>parent-bom</artifactId>
-    <version>${snapshotVersion}</version>
+    <version>${bom_version}</version>
     <packaging>pom</packaging>
 
     <properties>
