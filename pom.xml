@@ -28,7 +28,7 @@
         <hsqldb.version>r5658-f2e27a7</hsqldb.version>
         <httpclient.version>4.5.3</httpclient.version>
         <ical4j.version>2.0.0</ical4j.version>
-        <jackson.version>2.8.8</jackson.version>
+        <jackson.version>2.6.6</jackson.version>
         <jettyservlets.version>9.2.14.v20151106</jettyservlets.version>
         <junit.version>4.12</junit.version>
         <log4jweb.version>2.7</log4jweb.version>
