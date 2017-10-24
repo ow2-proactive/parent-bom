@@ -11,6 +11,8 @@
 
     <properties>
         <antlr4.version>4.5.2</antlr4.version>
+        <aol.version>0.79.5</aol.version>
+        <azure.version>1.0.0-beta5</azure.version>
         <caffeine.version>2.5.2</caffeine.version>
         <codingrules.version>1.0.0</codingrules.version>
         <commonsfileupload.version>1.3.1</commonsfileupload.version>
@@ -32,6 +34,7 @@
         <jackson.version>2.6.6</jackson.version>
         <jclouds.version>1.9.3</jclouds.version>
         <jettyservlets.version>9.2.14.v20151106</jettyservlets.version>
+        <json.version>20151123</json.version>
         <junit.version>4.12</junit.version>
         <log4jweb.version>2.7</log4jweb.version>
         <lombok.version>1.16.16</lombok.version>
@@ -47,6 +50,7 @@
         <swagger.version>2.6.1</swagger.version>
         <truth.version>0.30</truth.version>
         <validationapi.version>1.1.0.CR2</validationapi.version>
+        <yavijava.version>6.0.04</yavijava.version>
         <ztzip.version>1.11</ztzip.version>
     </properties>
 
@@ -132,6 +136,11 @@
 
             <!-- third party libs -->
             <dependency>
+                <groupId>com.aol.microservices</groupId>
+                <artifactId>micro-jackson-configuration</artifactId>
+                <version>${aol.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>commons-fileupload</groupId>
                 <artifactId>commons-fileupload</artifactId>
                 <version>${commonsfileupload.version}</version>
@@ -176,7 +185,11 @@
                 <artifactId>jackson-core</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-            
+            <dependency>
+                <groupId>org.json</groupId>
+                <artifactId>json</artifactId>
+                <version>${jason.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.jclouds.provider</groupId>
                 <artifactId>jclouds-compute</artifactId>
@@ -188,7 +201,6 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            
             <dependency>
                 <groupId>org.apache.jclouds.provider</groupId>
                 <artifactId>openstack-nova</artifactId>
@@ -200,7 +212,6 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            
             <dependency>
                 <groupId>org.apache.jclouds.provider</groupId>
                 <artifactId>aws-ec2</artifactId>
@@ -212,7 +223,6 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            
             <dependency>
                 <groupId>org.apache.jclouds.labs</groupId>
                 <artifactId>docker</artifactId>
@@ -224,7 +234,16 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-            
+            <dependency>
+                <groupId>com.microsoft.azure</groupId>
+                <artifactId>azure</artifactId>
+                <version>${azure.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.toastcoders</groupId>
+                <artifactId>yavijava</artifactId>
+                <version>${yavijava.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.hsqldb</groupId>
                 <artifactId>hsqldb</artifactId>
