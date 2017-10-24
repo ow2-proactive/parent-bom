@@ -1,1 +1,7 @@
 .idea
+# eclipse
+*.project
+*.classpath
+*.settings
+/.settings/
+

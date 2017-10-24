@@ -34,7 +34,7 @@
         <junit.version>4.12</junit.version>
         <log4jweb.version>2.7</log4jweb.version>
         <lombok.version>1.16.16</lombok.version>
-        <mockito.version>1.10.19</mockito.version>
+        <mockito.version>2.7.17</mockito.version>
         <querydsl.version>3.7.1</querydsl.version>
         <restassured.version>2.9.0</restassured.version>
         <resteasy.version>3.0.17.Final</resteasy.version>
