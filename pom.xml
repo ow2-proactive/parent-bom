@@ -32,7 +32,7 @@
         <httpclient.version>4.5.3</httpclient.version>
         <ical4j.version>2.0.0</ical4j.version>
         <!-- 2.6.6 version is a transitive dependency version used in programming-extension-vfsprovider => activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
-        <jackson.version>2.6.6</jackson.version>
+        <jackson.version>2.7.0</jackson.version>
         <jclouds.version>1.9.3</jclouds.version>
         <jettyservlets.version>9.2.14.v20151106</jettyservlets.version>
         <json.version>20151123</json.version>
@@ -140,6 +140,12 @@
                 <groupId>com.aol.microservices</groupId>
                 <artifactId>micro-jackson-configuration</artifactId>
                 <version>${aol.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.fasterxml.jackson.core</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>commons-fileupload</groupId>
@@ -172,8 +178,8 @@
                 <version>${jackson.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.fasterxml.jackson.datatype</groupId>
-                <artifactId>jackson-datatype-jsr310</artifactId>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
             <dependency>
@@ -182,20 +188,30 @@
                 <version>${jackson.version}</version>
             </dependency>
             <dependency>
-                <groupId>com.fasterxml.jackson.core</groupId>
-                <artifactId>jackson-core</artifactId>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-joda</artifactId>
                 <version>${jackson.version}</version>
             </dependency>
-	    <dependency>
-	      <groupId>com.fasterxml.jackson.jaxrs</groupId>
-	      <artifactId>jackson-jaxrs-json-provider</artifactId>
-	      <version>${jackson.version}</version>
-	    </dependency>
-	    <dependency>
-	      <groupId>com.fasterxml.jackson.datatype</groupId>
-	      <artifactId>jackson-datatype-jsr310</artifactId>
-	      <version>${jackson.version}</version>
-	    </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+	        <dependency>
+	            <groupId>com.fasterxml.jackson.jaxrs</groupId>
+	            <artifactId>jackson-jaxrs-base</artifactId>
+	            <version>${jackson.version}</version>
+	        </dependency>
+	        <dependency>
+	            <groupId>com.fasterxml.jackson.jaxrs</groupId>
+	            <artifactId>jackson-jaxrs-json-provider</artifactId>
+	            <version>${jackson.version}</version>
+	        </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.module</groupId>
+                <artifactId>jackson-module-jaxb-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.json</groupId>
                 <artifactId>json</artifactId>
