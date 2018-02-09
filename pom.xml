@@ -32,6 +32,7 @@
         <httpclient.version>4.5.3</httpclient.version>
         <ical4j.version>2.0.0</ical4j.version>
         <!-- 2.6.6 version was a transitive dependency version used in programming-extension-vfsprovider => activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
+        <javax.ws.rs.version>2.0.1</javax.ws.rs.version>
         <jackson.version>2.7.9</jackson.version>
         <jclouds.version>1.9.3</jclouds.version>
         <jettyservlets.version>9.2.14.v20151106</jettyservlets.version>
@@ -41,6 +42,7 @@
         <log4j.version>2.7</log4j.version>
         <lombok.version>1.16.16</lombok.version>
         <mockito.version>1.10.19</mockito.version>
+        <org.codehaus.jackson.version>1.9.12</org.codehaus.jackson.version>
         <querydsl.version>3.7.1</querydsl.version>
         <restassured.version>2.9.0</restassured.version>
         <resteasy.version>3.0.17.Final</resteasy.version>
@@ -228,6 +230,16 @@
                 <groupId>com.fasterxml.jackson.dataformat</groupId>
                 <artifactId>jackson-dataformat-cbor</artifactId>
                 <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.jackson</groupId>
+                <artifactId>jackson-core-asl</artifactId>
+                <version>${org.codehaus.jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.ws.rs</groupId>
+                <artifactId>javax.ws.rs-api</artifactId>
+                <version>${javax.ws.rs.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.json</groupId>
