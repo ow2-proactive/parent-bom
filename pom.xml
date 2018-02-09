@@ -37,6 +37,7 @@
         <jettyservlets.version>9.2.14.v20151106</jettyservlets.version>
         <json.version>20151123</json.version>
         <junit.version>4.12</junit.version>
+	<kie.version>6.4.0.Final</kie.version>
         <log4j.version>2.7</log4j.version>
         <lombok.version>1.16.16</lombok.version>
         <mockito.version>1.10.19</mockito.version>
@@ -466,9 +467,13 @@
                 <artifactId>commons-logging</artifactId>
                 <version>${commonslogging.version}</version>
             </dependency>
+	      <dependency>
+		<groupId>org.kie</groupId>
+		<artifactId>kie-ci</artifactId>
+		<version>${kie.version}</version>
+	      </dependency>
         </dependencies>
     </dependencyManagement>
-
     <distributionManagement>
         <repository>
             <id>Release</id>
