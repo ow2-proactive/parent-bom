@@ -107,3 +107,10 @@ as you can see in the sample, the exlusions are mamaged here in the block too, s
 
 4. Build and commit the parent-bom project, the nightly-release will generate and upload the artifact to the proactive repository, after which the new dependency can be imported into the micro-service project then.
 
+## Common issues
+
+- The Error "detached configuration" means that it cannot solve the dependencies.
+
+- When parent-bom will be updated, you will have to launch the parent-bom-release jenkins job to update the version on the nexus repository.
+
+- Be sure that activeeon repository is in your buildscript repositories in build.gradle.
