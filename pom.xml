@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.ow2.proactive</groupId>
@@ -36,6 +36,7 @@
 		<javax.ws.rs.version>2.0.1</javax.ws.rs.version>
 		<jackson.version>2.7.9</jackson.version>
 		<jersey.version>1.19.4</jersey.version>
+		<glassfish.version>2.27</glassfish.version>
 		<jclouds.version>1.9.3</jclouds.version>
 		<jettyservlets.version>9.2.14.v20151106</jettyservlets.version>
 		<json.version>20151123</json.version>
@@ -403,6 +404,11 @@
 				<artifactId>httpclient</artifactId>
 				<version>${httpclient.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.glassfish.jersey.core</groupId>
+				<artifactId>jersey-common</artifactId>
+				<version>${glassfish.version}</version>
+			</dependency>
 			<!-- jersey -->
 			<dependency>
 				<groupId>com.sun.jersey</groupId>
@@ -414,7 +420,6 @@
 				<artifactId>jersey-multipart</artifactId>
 				<version>${jersey.version}</version>
 			</dependency>
-
 			<!-- testing libs -->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
@@ -503,15 +508,15 @@
 				<artifactId>kie-ci</artifactId>
 				<version>${kie.version}</version>
 			</dependency>
-			
-			
+
+
 			<!-- PDF Report libraries -->
 			<dependency>
 				<groupId>com.github.dhorions</groupId>
 				<artifactId>boxable</artifactId>
 				<version>${boxable.version}</version>
 			</dependency>
-			
+
 		</dependencies>
 	</dependencyManagement>
 
