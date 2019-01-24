@@ -30,6 +30,7 @@
 		<hibernatejpa.version>1.0.0.Final</hibernatejpa.version>
 		<hsqldb.version>r5658-f2e27a7</hsqldb.version>
 		<httpclient.version>4.5.3</httpclient.version>
+		<httpmime.version>4.5.3</httpmime.version>
 		<ical4j.version>2.0.0</ical4j.version>
 		<!-- 2.6.6 version was a transitive dependency version used in programming-extension-vfsprovider 
 			=> activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
@@ -403,6 +404,11 @@
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpclient</artifactId>
 				<version>${httpclient.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpmime</artifactId>
+				<version>${httpmime.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.glassfish.jersey.core</groupId>
