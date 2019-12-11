@@ -62,6 +62,7 @@
 		<yavijava.version>6.0.04</yavijava.version>
 		<ztzip.version>1.11</ztzip.version>
 		<ulisesbocchio.version>1.9</ulisesbocchio.version>
+		<jasypt.version>1.9.3</jasypt.version>
 	</properties>
 
 	<dependencyManagement>
@@ -529,11 +530,17 @@
 				<version>${boxable.version}</version>
 			</dependency>
 
-			<dependency>e
+			<dependency>
 				<groupId>com.github.ulisesbocchio</groupId>
 				<artifactId>jasypt-spring-boot</artifactId>
 				<version>${ulisesbocchio.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>org.jasypt</groupId>
+				<artifactId>jasypt</artifactId>
+				<version>${jasypt.version}</version>
+			</dependency>
+
 		</dependencies>
 	</dependencyManagement>
 
