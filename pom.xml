@@ -34,7 +34,7 @@
 		<!-- 2.6.6 version was a transitive dependency version used in programming-extension-vfsprovider 
 			=> activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
 		<javax.ws.rs.version>2.0.1</javax.ws.rs.version>
-		<jackson.version>2.7.9</jackson.version>
+		<jackson.version>2.11.3</jackson.version>
 		<jersey.version>1.19.4</jersey.version>
 		<glassfish.version>2.27</glassfish.version>
 		<jclouds.version>1.9.3</jclouds.version>
