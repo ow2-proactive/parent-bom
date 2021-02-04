@@ -29,7 +29,7 @@
 		<hibernate.version>5.1.16.Final</hibernate.version>
 		<hibernatejpa.version>1.0.0.Final</hibernatejpa.version>
 		<hsqldb.version>2.5.1</hsqldb.version>
-		<httpclient.version>4.5.3</httpclient.version>
+		<httpclient.version>4.5.13</httpclient.version>
 		<ical4j.version>2.0.0</ical4j.version>
 		<!-- 2.6.6 version was a transitive dependency version used in programming-extension-vfsprovider 
 			=> activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
