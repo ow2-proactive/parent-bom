@@ -107,6 +107,12 @@ as you can see in the sample, the exlusions are mamaged here in the block too, s
 
 4. Build and commit the parent-bom project, the nightly-release will generate and upload the artifact to the proactive repository, after which the new dependency can be imported into the micro-service project then.
 
+# How to test parent-bom changes locally
+
+1. run `mvn install` to install locally your changes
+
+2. build projects which use parent-bom with option -Plocal.
+
 ## Common issues
 
 - The Error "detached configuration" means that it cannot solve the dependencies.
