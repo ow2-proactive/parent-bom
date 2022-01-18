@@ -9,7 +9,7 @@ parent bom project managing dependencies version
 ```
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
     }
 
     dependencies {
