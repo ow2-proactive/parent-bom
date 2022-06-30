@@ -61,7 +61,7 @@
 		<truth.version>0.30</truth.version>
 		<validationapi.version>1.1.0.CR2</validationapi.version>
 		<yavijava.version>6.0.04</yavijava.version>
-		<ztzip.version>1.11</ztzip.version>
+		<ztzip.version>1.13</ztzip.version>
 		<ulisesbocchio.version>1.9</ulisesbocchio.version>
 		<jasypt.version>1.9.3</jasypt.version>
 	</properties>
