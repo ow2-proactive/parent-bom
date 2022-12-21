@@ -55,7 +55,7 @@
 		<sonar.version>2.2.1</sonar.version>
 		<spotless.version>2.4.0</spotless.version>
 		<springboot.version>1.3.8.RELEASE</springboot.version>
-		<springweb.version>4.3.30.RELEASE</springweb.version>
+		<springweb.version>5.2.22.RELEASE</springweb.version>
 		<springtest.version>4.3.30.RELEASE</springtest.version>
 		<swaggerannotation.version>1.5.13</swaggerannotation.version>
 		<swagger.version>2.6.1</swagger.version>
