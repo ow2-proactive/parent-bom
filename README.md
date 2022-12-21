@@ -4,7 +4,7 @@ parent bom project managing dependencies version
 # How to use the plugin in other micro-service projects
 ## dependency management plugin definition in the micro-service project's build.gradle file
 
-1. Declaire the dependency management plugin in the buildscript block as following
+1. Declare the dependency management plugin in the buildscript block as following
 
 ```
 buildscript {
@@ -109,9 +109,13 @@ as you can see in the sample, the exlusions are mamaged here in the block too, s
 
 # How to test parent-bom changes locally
 
-1. run `mvn install` to install locally your changes
+1. Edit the version inside pom.xml. For example:
 
-2. build projects which use parent-bom with option -Plocal.
+<version>13.1.0-SNAPSHOT</version>
+
+3. run `mvn install` to install locally your changes
+
+4. build projects which use parent-bom with option -Plocal.
 
 ## Common issues
 
