@@ -9,7 +9,7 @@
 	<packaging>pom</packaging>
 
 	<properties>
-		<antlr4.version>4.5.2</antlr4.version>
+		<antlr4.version>4.7.2</antlr4.version>
 		<aol.version>0.79.5</aol.version>
 		<azure.version>1.0.0-beta5</azure.version>
 		<boxable.version>1.5</boxable.version>
@@ -21,7 +21,7 @@
 		<commonsio.version>2.7</commonsio.version>
 		<cronutils.version>9.1.6</cronutils.version>
 		<equalsverifier.version>1.7.7</equalsverifier.version>
-		<graphql.version>3.0.0</graphql.version>
+		<graphql.version>14.1</graphql.version>
 		<gson.version>2.5</gson.version>
 		<guava.version>21.0</guava.version>
 		<hamcrest.version>2.0.0.0</hamcrest.version>
