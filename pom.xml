@@ -12,7 +12,7 @@
 		<antlr4.version>4.7.2</antlr4.version>
 		<aol.version>0.79.5</aol.version>
 		<azure.version>1.0.0-beta5</azure.version>
-		<boxable.version>1.5</boxable.version>
+		<boxable.version>1.7.0</boxable.version>
 		<caffeine.version>2.5.2</caffeine.version>
 		<codingrules.version>1.0.0</codingrules.version>
 		<commonslogging.version>1.1.1</commonslogging.version>
