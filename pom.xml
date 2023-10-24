@@ -40,7 +40,7 @@
 		<jersey.version>1.19.4</jersey.version>
 		<glassfish.version>2.27</glassfish.version>
 		<jclouds.version>1.9.3</jclouds.version>
-		<jettyservlets.version>9.4.51.v20230217</jettyservlets.version>
+		<jettyservlets.version>9.4.53.v20231009</jettyservlets.version>
 		<json.version>20231013</json.version>
 		<junit.version>4.12</junit.version>
 		<kie.version>6.4.0.Final</kie.version>
