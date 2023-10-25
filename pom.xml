@@ -27,7 +27,7 @@
 		<guava.version>32.0.1-jre</guava.version>
 		<hamcrest.version>2.0.0.0</hamcrest.version>
 		<hateoas.version>0.19.0.RELEASE</hateoas.version>
-		<hibernate.version>5.2.18.Final</hibernate.version>
+		<hibernate.version>5.3.32.Final</hibernate.version>
 		<hibernatejpa.version>1.0.2.Final</hibernatejpa.version>
 		<hsqldb.version>2.7.2</hsqldb.version>
 		<httpclient.version>4.5.13</httpclient.version>
@@ -215,7 +215,7 @@
 			<dependency>
 				<groupId>org.hibernate</groupId>
 				<artifactId>hibernate-hikaricp</artifactId>
-				<version>5.2.18.PA</version>
+				<version>5.3.32.PA</version>
 			</dependency>
 			<dependency>
 				<groupId>com.zaxxer</groupId>
