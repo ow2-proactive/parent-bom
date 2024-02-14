@@ -38,7 +38,7 @@
 		<jacksondatabind.version>2.13.4.2</jacksondatabind.version>
 		<jackson.version>2.13.4</jackson.version>
 		<jersey.version>1.19.4</jersey.version>
-		<glassfish.version>2.27</glassfish.version>
+		<glassfish.version>2.41</glassfish.version>
 		<jclouds.version>1.9.3</jclouds.version>
 		<jettyservlets.version>9.4.53.v20231009</jettyservlets.version>
 		<json.version>20231013</json.version>
