@@ -30,13 +30,14 @@
 		<hibernate.version>5.3.32.Final</hibernate.version>
 		<hibernatejpa.version>1.0.2.Final</hibernatejpa.version>
 		<hsqldb.version>2.7.2</hsqldb.version>
-		<httpclient.version>4.5.13</httpclient.version>
+		<httpclient.version>4.5.14</httpclient.version>
 		<ical4j.version>2.0.0</ical4j.version>
 		<!-- 2.6.6 version was a transitive dependency version used in programming-extension-vfsprovider 
 			=> activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
 		<javax.ws.rs.version>2.0.1</javax.ws.rs.version>
-		<jacksondatabind.version>2.13.4.2</jacksondatabind.version>
-		<jackson.version>2.13.4</jackson.version>
+		<jacksondatabind.version>2.16.1</jacksondatabind.version>
+		<jakarta.version>2.1.2</jakarta.version>
+		<jackson.version>2.16.1</jackson.version>
 		<jersey.version>1.19.4</jersey.version>
 		<glassfish.version>2.41</glassfish.version>
 		<jclouds.version>1.9.3</jclouds.version>
@@ -364,6 +365,11 @@
 				<groupId>com.fasterxml.jackson.dataformat</groupId>
 				<artifactId>jackson-dataformat-cbor</artifactId>
 				<version>${jackson.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>jakarta.activation</groupId>
+				<artifactId>jakarta.activation-api</artifactId>
+				<version>${jakarta.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.codehaus.jackson</groupId>
