@@ -36,8 +36,8 @@
 			=> activeeon:vfs-s3:2.4.7 => com.amazonaws:aws-java-sdk-core:1.11.22 -->
 		<javax.ws.rs.version>2.0.1</javax.ws.rs.version>
 		<jacksondatabind.version>2.16.1</jacksondatabind.version>
-		<jakarta.version>2.1.2</jakarta.version>
 		<jackson.version>2.16.1</jackson.version>
+		<jakarta.version>2.1.2</jakarta.version>
 		<jersey.version>1.19.4</jersey.version>
 		<glassfish.version>2.41</glassfish.version>
 		<jclouds.version>1.9.3</jclouds.version>
@@ -649,7 +649,7 @@
 			<dependency>
 				<groupId>com.google.code.gson</groupId>
 				<artifactId>gson</artifactId>
-				<version>${gson.version}</version>
+				<version>${gsupgrade-keycloak-related-dependencieson.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
