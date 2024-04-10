@@ -649,7 +649,7 @@
 			<dependency>
 				<groupId>com.google.code.gson</groupId>
 				<artifactId>gson</artifactId>
-				<version>${gsupgrade-keycloak-related-dependencieson.version}</version>
+				<version>${gson.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
